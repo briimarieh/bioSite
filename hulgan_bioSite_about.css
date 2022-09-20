@@ -1,0 +1,64 @@
+/*
+    Brianne Hulgan
+    bioSite About Page
+*/
+html {
+    background-color: #F2FFFF;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    align-items: center;
+    background-color: #259faf;
+    color: #F2FFFF;
+    height: 20px;
+    font-size: larger;
+    border-bottom: 15px solid #044553;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar a {
+    float: left;
+    color: #F2FFFF;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #152636;
+    color: #F2FFFF;
+}
+
+footer {
+    background-color: #259faf;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #F2FFFF;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F2FFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
