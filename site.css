@@ -35,96 +35,79 @@ h1 {
 }
 
 #navbar a:hover {
-    background-color: #152636;
+    background-color: #044553;
     color: #F2FFFF;
 }
 
-#container-home {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 10%;
-  align-items: center;
+/* landing page specific styling */
+#content {
+    width: 845px;
+    margin-top: 150px;
 }
 
-#portraitL {
-  width: 400px;
-  height: 450px;
+#row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
 
-#portraitA {
-    width: 400px;
-    height: 450px;
+/* about page specific styling */
+#contentA {
+    width: 845px;
+    padding-bottom: 10%;
 }
 
-#dog {
-    width: 400px;
-    height: 450px;
+#rowA{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 60px;
 }
 
-#cat {
-    width: 400px;
-    height: 450px;
+#leftcolumn {
+    width: 50%;
 }
 
-#girlfriend {
-    width: 400px;
-    height: 450px;
+#rightcolumn {
+    padding-top: 20%;
 }
 
-#dad {
-    width: 400px;
-    height: 450px;
+#photos {
+    display: flex;
+    justify-content: space-between;
 }
 
-#family {
-    width: 400px;
-    height: 400px;
-}
-
-#younger-self {
-    width: 400px;
-    height: 450px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: 50%;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card-title {
-  text-align: center;
-  font-size: 2em;
-  color: #8F8D64;
-  font-weight: 400;
-}
-
-.card-content {
-  padding: 2px 16px;
-  color: #8F8D64;
-}
-
-.card-content a {
-  color: #8f8D64;
-  text-decoration: none;
-}
-.card-content a:hover {
-  text-decoration: underline;
-}
-
-.image-gallery {
-    text-align: center;
+img {
+    height: 350px;
+    width: auto;
+    object-fit: scale-down;
 }
 
 figcaption {
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    font-style: italic;
-    font-size: .75em;
+    text-align: center;
+}
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
     font-weight: 400;
+    color: #152636;
+}
+
+.card-content {
+    padding: 2px 16px;
+    color: #152636;
 }
 
 footer {
