@@ -145,6 +145,16 @@ figcaption {
     color: #152636;
 }
 
+.card-content a {
+    text-decoration: underline;
+    color: #259faf;
+}
+
+.card-content a:hover{
+    text-decoration: underline;
+    color: #044553;
+}
+
 footer {
     background-color: #259faf;
     position: fixed;
