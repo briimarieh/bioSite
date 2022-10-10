@@ -41,8 +41,11 @@ h1 {
 
 /* landing page specific styling */
 #content {
-    width: 845px;
-    margin-top: 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    margin: auto;
 }
 
 #row {
@@ -53,8 +56,11 @@ h1 {
 
 /* about page specific styling */
 #contentA {
-    width: 845px;
-    padding-bottom: 10%;
+    padding-top: 15px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    margin: auto;
 }
 
 #rowA{
@@ -76,6 +82,35 @@ h1 {
 #photos {
     display: flex;
     justify-content: space-between;
+}
+
+/* hobbies page specific styling */
+#contentH {
+    padding-top: 15px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+#rowH {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+#photosH {
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftcolumn {
+    width: 50%;
+}
+
+#tree-work {
+    padding-left: 23%;
 }
 
 img {
